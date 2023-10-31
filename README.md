@@ -1,6 +1,6 @@
 # Discord Data Package Message Search
 
-A Python script that helps you search your messages in your Discord Data Package.
+A Python script that helps you search your messages in your Discord Data Package to find lost dms for example.
 
 ## How it works
 
