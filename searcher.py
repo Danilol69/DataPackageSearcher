@@ -26,7 +26,12 @@ def search_phrase_in_csv_files(directory_path, target_phrase):
 
 def main():
     while True:
-        directory_path = input("Enter the directory path: ")
+        directory_path = input("Enter the directory path of your messages folder in your Discord Data Package: ")
+
+        if not os.path.isdir(directory_path):
+            print(f"Invalid directory path: {directory_path}")
+            continue
+        
         target_phrase = input("Enter the target phrase: ")
         print("-" * 55)
         search_phrase_in_csv_files(directory_path, target_phrase)
