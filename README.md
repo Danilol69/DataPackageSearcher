@@ -1,6 +1,6 @@
 # Discord Data Package Message Search
 
-A Python script that helps you search your messages in your Discord Data Package to find lost dms for example.
+A simple python script that helps you search your messages in your Discord Data Package to find lost dms.
 
 ## How it works
 
@@ -16,3 +16,5 @@ To use this script, follow these steps:
 2. Download your Discord Data Package from Discord (follow [this guide](https://support.discord.com/hc/en-us/articles/360004027692) if you don't know how to get it).
 3. Extract the contents of your Discord Data Package to a folder.
 4. Run the script and follow the on-screen instructions to search for messages.
+
+I'm too lazy to explain how to do the rest so just follow [this tutorial](https://www.youtube.com/watch?v=eU9z_w2YRqI)
